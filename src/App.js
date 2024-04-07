@@ -1,6 +1,7 @@
 // App.js
 import React from 'react';
 import WorldMap from './components/WorldMap/WorldMap';
+import './App.css';
 
 function App() {
   return (

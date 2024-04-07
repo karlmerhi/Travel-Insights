@@ -1,20 +1,20 @@
 /* WorldMap.css */
 html, body, #root {
-    height: 100%;
+    height: 50%;
     margin: 0;
     padding: 0;
   }
   
   .map-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
   }
-  
-  .map {
-    width: 100%;
-    height: 100%;
-  }
-  
+
+  #map a, #map p {
+    display:block;
+    overflow:hidden;
+    position:absolute;
+    text-indent:-9999px;
+    z-index:400;
+    }
